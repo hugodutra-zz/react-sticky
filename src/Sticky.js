@@ -100,10 +100,10 @@ export default class Sticky extends Component {
     )
 
     return (
-      <div>
-        <div ref={ placeholder => this.placeholder = placeholder } />
+      <thead>
+        <tr ref={ placeholder => this.placeholder = placeholder } />
         { element }
-      </div>
+      </thead>
     )
   }
 }
